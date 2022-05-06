@@ -7,8 +7,8 @@ Repo containing files useful to launch a docker image with two containers inside
 - container 2: run selenium --> porta:4444 --> the passwrod for entering into the VNC is "secret"
 
 # Comandi
-- docker-compose up -d --build = builds the image for the first time by installing the libraries. Use it on first launch and every time the requirements file is changed.
-- docker-compose up = upload the image (if no changes have been made to the other files)
+- docker-compose build = builds the image for the first time by installing the libraries. Use it on every first launch.
+- docker-compose up = turn on the image.
 - docker-compose down = turn off the image.
 
-Aggiornamento: 29/4/22
+Aggiornamento: 6/5/22
